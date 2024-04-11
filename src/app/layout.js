@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import SessionWrapper from "@/components/SessionWrapper";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] }); 
 
 export const metadata = {
   title: "Menn Insta App",
