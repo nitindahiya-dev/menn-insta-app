@@ -18,7 +18,7 @@ export default function Post({ post }) {
         src={post.image}
         alt={post.caption}
         className='object-cover w-full'
-      />
+      /> 
       <LikeSection id={post.id} />
       <p className='p-5 truncate'>
         <span className='font-bold mr-2'>{post.username}</span>
